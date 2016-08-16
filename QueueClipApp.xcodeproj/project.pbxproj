@@ -10,8 +10,12 @@
 		95088FF31D5D1CA000088F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95088FF21D5D1CA000088F69 /* AppDelegate.swift */; };
 		95088FF51D5D1CA000088F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95088FF41D5D1CA000088F69 /* Assets.xcassets */; };
 		95088FF81D5D1CA000088F69 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95088FF61D5D1CA000088F69 /* MainMenu.xib */; };
-		950890031D5D1CA000088F69 /* QueueClipAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950890021D5D1CA000088F69 /* QueueClipAppTests.swift */; };
-		9508900E1D5D1CA000088F69 /* QueueClipAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9508900D1D5D1CA000088F69 /* QueueClipAppUITests.swift */; };
+		950890231D5D1D1600088F69 /* QueueClipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950890211D5D1D1600088F69 /* QueueClipController.swift */; };
+		950890241D5D1D1600088F69 /* QueueClipController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950890221D5D1D1600088F69 /* QueueClipController.xib */; };
+		95FE962E1D60235A00CE2A42 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FE962C1D60235A00CE2A42 /* InformationViewController.swift */; };
+		95FE962F1D60235A00CE2A42 /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95FE962D1D60235A00CE2A42 /* InformationViewController.xib */; };
+		95FE96311D602A2100CE2A42 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FE96301D602A2100CE2A42 /* EventMonitor.swift */; };
+		A23073C439A2BFDA9A309C4D /* Pods_QueueClipApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAF4D1A2EA17BC71DA33CF2 /* Pods_QueueClipApp.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,17 +36,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E6560039320342B0060D89C /* Pods-QueueClipApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueueClipApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QueueClipApp/Pods-QueueClipApp.release.xcconfig"; sourceTree = "<group>"; };
 		95088FEF1D5D1CA000088F69 /* QueueClipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueueClipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95088FF21D5D1CA000088F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95088FF41D5D1CA000088F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95088FF71D5D1CA000088F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		95088FF91D5D1CA000088F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95088FFE1D5D1CA000088F69 /* QueueClipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueClipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		950890021D5D1CA000088F69 /* QueueClipAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueClipAppTests.swift; sourceTree = "<group>"; };
-		950890041D5D1CA000088F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		950890091D5D1CA000088F69 /* QueueClipAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueClipAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9508900D1D5D1CA000088F69 /* QueueClipAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueClipAppUITests.swift; sourceTree = "<group>"; };
-		9508900F1D5D1CA000088F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950890211D5D1D1600088F69 /* QueueClipController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueClipController.swift; sourceTree = "<group>"; };
+		950890221D5D1D1600088F69 /* QueueClipController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QueueClipController.xib; sourceTree = "<group>"; };
+		953C24E31D5D5375002CB1C0 /* QueueClip-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QueueClip-Bridging-Header.h"; sourceTree = "<group>"; };
+		95FE962C1D60235A00CE2A42 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		95FE962D1D60235A00CE2A42 /* InformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
+		95FE96301D602A2100CE2A42 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		B88D01438DFB7E243A1FBA09 /* Pods-QueueClipApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueueClipApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QueueClipApp/Pods-QueueClipApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FCAF4D1A2EA17BC71DA33CF2 /* Pods_QueueClipApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueueClipApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23073C439A2BFDA9A309C4D /* Pods_QueueClipApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,13 +80,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EE34F8814B807AB00BD7D28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B88D01438DFB7E243A1FBA09 /* Pods-QueueClipApp.debug.xcconfig */,
+				1E6560039320342B0060D89C /* Pods-QueueClipApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54E6CD838D88828E01E97FFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF4D1A2EA17BC71DA33CF2 /* Pods_QueueClipApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		95088FE61D5D1CA000088F69 = {
 			isa = PBXGroup;
 			children = (
 				95088FF11D5D1CA000088F69 /* QueueClipApp */,
-				950890011D5D1CA000088F69 /* QueueClipAppTests */,
-				9508900C1D5D1CA000088F69 /* QueueClipAppUITests */,
 				95088FF01D5D1CA000088F69 /* Products */,
+				3EE34F8814B807AB00BD7D28 /* Pods */,
+				54E6CD838D88828E01E97FFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,29 +121,17 @@
 			isa = PBXGroup;
 			children = (
 				95088FF21D5D1CA000088F69 /* AppDelegate.swift */,
+				950890211D5D1D1600088F69 /* QueueClipController.swift */,
+				950890221D5D1D1600088F69 /* QueueClipController.xib */,
+				95FE962C1D60235A00CE2A42 /* InformationViewController.swift */,
+				95FE962D1D60235A00CE2A42 /* InformationViewController.xib */,
+				95FE96301D602A2100CE2A42 /* EventMonitor.swift */,
 				95088FF41D5D1CA000088F69 /* Assets.xcassets */,
 				95088FF61D5D1CA000088F69 /* MainMenu.xib */,
 				95088FF91D5D1CA000088F69 /* Info.plist */,
+				953C24E31D5D5375002CB1C0 /* QueueClip-Bridging-Header.h */,
 			);
 			path = QueueClipApp;
-			sourceTree = "<group>";
-		};
-		950890011D5D1CA000088F69 /* QueueClipAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				950890021D5D1CA000088F69 /* QueueClipAppTests.swift */,
-				950890041D5D1CA000088F69 /* Info.plist */,
-			);
-			path = QueueClipAppTests;
-			sourceTree = "<group>";
-		};
-		9508900C1D5D1CA000088F69 /* QueueClipAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9508900D1D5D1CA000088F69 /* QueueClipAppUITests.swift */,
-				9508900F1D5D1CA000088F69 /* Info.plist */,
-			);
-			path = QueueClipAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 950890121D5D1CA000088F69 /* Build configuration list for PBXNativeTarget "QueueClipApp" */;
 			buildPhases = (
+				9A0732B71A54868FBE609150 /* [CP] Check Pods Manifest.lock */,
 				95088FEB1D5D1CA000088F69 /* Sources */,
 				95088FEC1D5D1CA000088F69 /* Frameworks */,
 				95088FED1D5D1CA000088F69 /* Resources */,
+				2ACCE3C39FEB42B384D51BCE /* [CP] Embed Pods Frameworks */,
+				69BDD616BF70F92123282A77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950890241D5D1D1600088F69 /* QueueClipController.xib in Resources */,
+				95FE962F1D60235A00CE2A42 /* InformationViewController.xib in Resources */,
 				95088FF51D5D1CA000088F69 /* Assets.xcassets in Resources */,
 				95088FF81D5D1CA000088F69 /* MainMenu.xib in Resources */,
 			);
@@ -244,12 +264,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ACCE3C39FEB42B384D51BCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QueueClipApp/Pods-QueueClipApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69BDD616BF70F92123282A77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QueueClipApp/Pods-QueueClipApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0732B71A54868FBE609150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95088FEB1D5D1CA000088F69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				95088FF31D5D1CA000088F69 /* AppDelegate.swift in Sources */,
+				950890231D5D1D1600088F69 /* QueueClipController.swift in Sources */,
+				95FE962E1D60235A00CE2A42 /* InformationViewController.swift in Sources */,
+				95FE96311D602A2100CE2A42 /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950890031D5D1CA000088F69 /* QueueClipAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +335,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9508900E1D5D1CA000088F69 /* QueueClipAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +406,9 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "QueueClipApp/QueueClipApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "Framework/**";
 			};
 			name = Debug;
 		};
@@ -375,11 +446,14 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "QueueClipApp/QueueClipApp-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Framework/**";
 			};
 			name = Release;
 		};
 		950890131D5D1CA000088F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88D01438DFB7E243A1FBA09 /* Pods-QueueClipApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -387,11 +461,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylanmcdowell.QueueClipApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QueueClipApp/QueueClip-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
 		950890141D5D1CA000088F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6560039320342B0060D89C /* Pods-QueueClipApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -399,6 +476,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylanmcdowell.QueueClipApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QueueClipApp/QueueClip-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};
@@ -471,6 +550,7 @@
 				950890141D5D1CA000088F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		950890151D5D1CA000088F69 /* Build configuration list for PBXNativeTarget "QueueClipAppTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +559,7 @@
 				950890171D5D1CA000088F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		950890181D5D1CA000088F69 /* Build configuration list for PBXNativeTarget "QueueClipAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +568,7 @@
 				9508901A1D5D1CA000088F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
